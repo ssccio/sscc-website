@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Cloud } from "lucide-react";
+import { Menu, X, Server } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navigation = [
@@ -21,11 +21,11 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 glass">
       <nav className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center">
-            <Cloud className="w-6 h-6 text-primary-foreground" />
+        <Link to="/" className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-md gradient-primary flex items-center justify-center">
+            <Server className="w-5 h-5 text-primary-foreground" />
           </div>
-          <span className="text-xl font-bold text-foreground">SSCC</span>
+          <span className="text-xl font-bold tracking-tight text-foreground">SSCC</span>
         </Link>
 
         {/* Desktop Navigation */}
