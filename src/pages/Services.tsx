@@ -146,7 +146,7 @@ const Services = () => {
               Cloud Services That{" "}
               <span className="gradient-text">Drive Results</span>
             </h1>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-xl text-foreground/80">
               From strategy to implementation, we provide comprehensive cloud
               consulting services tailored to enterprise requirements.
             </p>
@@ -155,7 +155,7 @@ const Services = () => {
       </section>
 
       {/* Services List */}
-      <section className="pb-24">
+      <section className="pb-24 bg-background">
         <div className="container mx-auto px-6">
           <div className="space-y-24">
             {services.map((service, index) => (
@@ -173,13 +173,13 @@ const Services = () => {
                   <h2 className="text-3xl font-bold text-foreground mb-4">
                     {service.title}
                   </h2>
-                  <p className="text-lg text-muted-foreground mb-8">
+                  <p className="text-lg text-foreground/80 mb-8">
                     {service.description}
                   </p>
 
                   {/* Use Cases */}
                   <div className="mb-8">
-                    <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-3">
+                    <h3 className="text-sm font-semibold text-foreground/70 uppercase tracking-wider mb-3">
                       Common Use Cases
                     </h3>
                     <div className="flex flex-wrap gap-2">
@@ -214,7 +214,7 @@ const Services = () => {
                     {service.benefits.map((benefit) => (
                       <li key={benefit} className="flex items-start gap-3">
                         <CheckCircle className="w-5 h-5 text-primary shrink-0 mt-0.5" />
-                        <span className="text-muted-foreground">{benefit}</span>
+                        <span className="text-foreground/80">{benefit}</span>
                       </li>
                     ))}
                   </ul>
@@ -231,7 +231,7 @@ const Services = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Need a Custom Solution?
           </h2>
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-foreground/80 mb-8 max-w-2xl mx-auto">
             Every enterprise is unique. Let's discuss how we can tailor our
             services to meet your specific requirements.
           </p>
