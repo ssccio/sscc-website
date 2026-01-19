@@ -66,24 +66,24 @@ const About = () => {
       </section>
 
       {/* Mission */}
-      <section className="pb-24">
+      <section className="pb-24 bg-background">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-foreground mb-6">
                 Our Mission
               </h2>
-              <p className="text-lg text-muted-foreground mb-6">
+              <p className="text-lg text-foreground/90 mb-6">
                 SSCC Cloud Consulting was founded with a simple mission: to
                 bring enterprise-grade cloud expertise to organizations of all
                 sizes.
               </p>
-              <p className="text-lg text-muted-foreground mb-6">
+              <p className="text-lg text-foreground/90 mb-6">
                 We've seen too many companies struggle with cloud adoption—not
                 because of the technology, but because of poor planning,
                 fragmented knowledge, and lack of experienced guidance.
               </p>
-              <p className="text-lg text-muted-foreground">
+              <p className="text-lg text-foreground/90">
                 Our team combines deep technical expertise with practical
                 business understanding to deliver cloud solutions that actually
                 work in the real world.
@@ -91,15 +91,15 @@ const About = () => {
             </div>
             <div className="bg-card border border-border rounded-xl p-8">
               <div className="text-5xl font-bold gradient-text mb-2">150+</div>
-              <div className="text-muted-foreground mb-8">
+              <div className="text-foreground/80 mb-8">
                 Successful projects delivered
               </div>
               <div className="text-5xl font-bold gradient-text mb-2">50+</div>
-              <div className="text-muted-foreground mb-8">
+              <div className="text-foreground/80 mb-8">
                 Enterprise clients served
               </div>
               <div className="text-5xl font-bold gradient-text mb-2">15+</div>
-              <div className="text-muted-foreground">
+              <div className="text-foreground/80">
                 Years of combined cloud experience
               </div>
             </div>
@@ -108,13 +108,13 @@ const About = () => {
       </section>
 
       {/* Values */}
-      <section className="py-24 bg-card/50">
+      <section className="py-24 bg-card">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Our Core Values
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-foreground/80 max-w-2xl mx-auto">
               These principles guide everything we do, from how we approach
               projects to how we treat our clients.
             </p>
@@ -129,7 +129,7 @@ const About = () => {
                 <h3 className="text-xl font-semibold text-foreground mb-2">
                   {value.title}
                 </h3>
-                <p className="text-muted-foreground">{value.description}</p>
+                <p className="text-foreground/80">{value.description}</p>
               </div>
             ))}
           </div>
@@ -137,14 +137,14 @@ const About = () => {
       </section>
 
       {/* Why SSCC */}
-      <section className="py-24">
+      <section className="py-24 bg-background">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Why Choose SSCC?
               </h2>
-              <p className="text-lg text-muted-foreground mb-8">
+              <p className="text-lg text-foreground/80 mb-8">
                 There are many cloud consultancies out there. Here's what makes
                 us different.
               </p>
@@ -163,7 +163,7 @@ const About = () => {
                 <h3 className="text-xl font-semibold text-foreground mb-6">
                   Ready to Get Started?
                 </h3>
-                <p className="text-muted-foreground mb-6">
+                <p className="text-foreground/80 mb-6">
                   Schedule a free consultation to discuss your cloud
                   infrastructure challenges and how we can help.
                 </p>
@@ -183,12 +183,12 @@ const About = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-24 bg-card/50 border-t border-border">
+      <section className="py-24 bg-card border-t border-border">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Let's Build Something Great Together
           </h2>
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-foreground/80 mb-8 max-w-2xl mx-auto">
             Whether you're starting your cloud journey or optimizing existing
             infrastructure, we're here to help.
           </p>
